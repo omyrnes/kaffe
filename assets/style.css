@@ -1,0 +1,12 @@
+body {
+  background-color:#1e1e1e;
+  font-family: Arial, sans-serif;
+  color: grey;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: hotpink
+}
+input {
+  background-color: darkgrey;
+  width: 50px;
+} 
