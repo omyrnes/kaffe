@@ -2,6 +2,7 @@ from dash import Dash, dcc, html, Input, Output, callback
 
 app = Dash(__name__)
 app.title = "Kaffe"
+server = app.server
 
 app.layout = html.Div([
     html.Div(
@@ -26,4 +27,4 @@ def vanntilkaffe(vann, forhold = (1000/60)):
     return f'Gram kaffe: {mengdekaffe} g'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
